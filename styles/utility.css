@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+}
+
+.subtitle {
+  font: var(--subtitle);
+  padding-top: 56px;
+  color: var(--color-gray500);
+}
+
+.text-lg {
+  font: var(--h1);
+  padding-top: 8px;
+  color: var(--color-gray600);
+}
+
+.text-sm {
+  font: var(--text-sm);
+  padding-top: 20px;
+  color: var(--color-gray400);
+  max-width: 680px;
+  text-align: center;
+}
+
+.text-md {
+  font: var(--text-md);
+}
+

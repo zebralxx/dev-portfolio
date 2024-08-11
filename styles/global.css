@@ -1,7 +1,11 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-gray200);
 }
 
 :root {
@@ -11,5 +15,47 @@
   --color-green: #82BC4F;
   --color-yellow: #EABD5F;
 
-   
+  --color-gray100: #0D0E11;
+  --color-gray200: #16181D;
+  --color-gray300: #292C34;
+  --color-gray400: #878EA1;
+  --color-gray500: #C0C4CE;
+  --color-gray600: #E2E4E9;
+
+  --font-asap: 'Asap', sans-serif;
+  --font-Inconsolata: 'Inconsolata', sans-serif;
+  --font-Maven: 'Maven+Pro', sans-serif;
+
+  --h1: 800 56px/120% var(--font-asap);
+  --h2: 800 24px/120% var(--font-asap);
+  --h3: 800 16px/120% var(--font-asap);
+
+  --subtitle: 400 20px/120% var(--font-Inconsolata);
+
+  --text-md: 400 16px/140% var(--font-Maven);
+  --text-sm: 400 14px/140% var(--font-Maven);
+}
+
+.tag {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-gray300);
+  border-radius: 30px;
+  color: var(--color-gray500);
+  gap: 8px;
+  padding: 9px 16px 9px 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.content-tag {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 80px;
 }

@@ -1,0 +1,24 @@
+header {
+  background-image: url('../assets/images/Background_Intro.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 750px;
+}
+
+.red {
+  color: var(--color-red);
+}
+
+.avatar {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.arrow {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 23px;
+}
