@@ -6,6 +6,21 @@ header {
   height: 750px;
 }
 
+.presentation {
+  padding-top: 56px;
+
+  h1 {
+    padding-top: 8px;
+  }
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 20px;
+}
+
 .red {
   color: var(--color-red);
 }
@@ -22,3 +37,4 @@ header {
   align-items: center;
   size: 23px;
 }
+

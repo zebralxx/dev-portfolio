@@ -47,12 +47,6 @@ body {
   padding: 9px 16px 9px 16px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-}
-
 .content-tag {
   display: flex;
   justify-content: center;
