@@ -8,6 +8,12 @@ body {
   background-color: var(--color-gray200);
 }
 
+aside {
+  background-color: var(--color-gray100);
+  margin-top: 144px;
+  padding-bottom: 120px;
+}
+
 :root {
   --color-red: #E3646E;
   --color-purple: #BB72E9;
@@ -26,9 +32,9 @@ body {
   --font-Inconsolata: 'Inconsolata', sans-serif;
   --font-Maven: 'Maven+Pro', sans-serif;
 
-  --h1: 800 56px/120% var(--font-asap);
-  --h2: 800 24px/120% var(--font-asap);
-  --h3: 800 16px/120% var(--font-asap);
+  --h1: 600 56px/120% var(--font-asap);
+  --h2: 600 24px/120% var(--font-asap);
+  --h3: 600 16px/120% var(--font-asap);
 
   --subtitle: 400 20px/120% var(--font-Inconsolata);
 
@@ -52,4 +58,12 @@ body {
   justify-content: center;
   gap: 16px;
   padding-top: 80px;
+}
+
+footer {
+  background-image: url('../assets/images/Background_Contacts.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 787px;
 }

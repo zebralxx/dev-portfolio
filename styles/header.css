@@ -21,11 +21,7 @@ header {
   padding-top: 20px;
 }
 
-.red {
-  color: var(--color-red);
-}
-
-.avatar {
+.center {
   padding-top: 120px;
   text-align: center;
 }

@@ -2,9 +2,16 @@
   display: grid;
 }
 
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
 .subtitle {
   font: var(--subtitle);
-  color: var(--color-gray500);
 }
 
 .text-lg {
@@ -16,10 +23,32 @@
   font: var(--text-sm);
   color: var(--color-gray400);
   max-width: 680px;
-  text-align: center;
 }
 
 .text-md {
   font: var(--text-md);
 }
 
+.title-sm {
+  font: var(--h3);
+}
+
+.title-md {
+  font: var(--h2);
+}
+
+.color-gray600 {
+  color: var(--color-gray600);
+}
+
+.color-gray500 {
+  color: var(--color-gray500);
+}
+
+.red {
+  color: var(--color-red);
+}
+
+.purple {
+  color: var(--color-purple);
+}

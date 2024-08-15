@@ -1,0 +1,147 @@
+.card {
+  width: 330px;
+  height: 280px;
+  background-color: var(--color-gray300);
+  border-radius: 12px;
+
+  img {
+    max-width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+  }
+
+  div {
+    padding-top: 12px;
+
+    p{
+      box-sizing: border-box;
+      padding: 8px 16px 21px 16px;
+    }
+
+    h3 {
+      box-sizing: border-box;
+      margin-left: 16px;
+    }
+
+  }
+  }
+
+.card:hover {
+  border: 1.5px solid var(--color-gray400);
+}
+
+.container {
+  align-content: center;
+  max-width: 1040px;
+  margin-inline: auto;
+}
+
+#projects {
+  padding-top: 56px;
+  grid-area: projects;
+
+  &>div {
+    grid-template-columns: repeat(3, 330px);
+  }
+}
+
+#services {
+  display: flex;
+  justify-content: center;
+  padding-top: 56px;
+  grid-area: services;
+
+  &>div {
+    grid-template-columns: repeat(3, 280px);
+  }
+}
+
+.second-title {
+  text-align: center;
+  padding-top: 72px;
+}
+
+.second-title :nth-child(2) {
+  padding-top: 8px;
+}
+
+.third-title {
+  text-align: center;
+  padding-top: 88px;
+}
+
+.third-title :nth-child(2) {
+  padding-top: 8px;
+}
+
+.fourth-title {
+  text-align: center;
+  padding-top: 88px;
+}
+
+.fourth-title :nth-child(2) {
+  padding-top: 8px;
+}
+
+.fourth-title :nth-child(3) {
+  padding-top: 8px;
+}
+
+.card-2 {
+  width: 280px;
+  height: 155px;
+  background-color: transparent;
+  border: 2px solid var(--color-gray200);
+  border-radius: 12px;
+
+  img {
+    max-width: 100%;
+    margin-top: 27.5px;
+    margin-left: 23px;
+  }
+
+  h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  p {
+    margin: 8px 20px 20px 20px;
+  }
+  }
+
+  
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px;
+    gap: 16px;
+  }
+
+  .card-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 68px;
+    background-color: var(--color-gray300);
+    border-radius: 8px;
+    box-sizing: border-box;
+    }
+
+  .card-3 :nth-child(1) {
+    margin-left: 22.63px;
+    width: 22.75px;
+    height: 22.75px;
+  }
+
+  .card-3 :nth-child(3) {
+    margin-right: 24.38px;
+    width: 11.25px;
+    height: 11.25px;
+  }
+
+  .card-3:hover {
+    border: 1.5px solid var(--color-blue);
+  }
